@@ -1,0 +1,13 @@
+### GET request to example server
+
+POST http://localhost:8080/products
+content-type: application/json
+
+{
+ "name" : "laptop",
+ "price" : 1220.01,
+ "VendorId": "234ff"
+}
+
+###
+GET localhost:8080/products/6685560755ddb557295e0dc6
